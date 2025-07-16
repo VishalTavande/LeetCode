@@ -1,4 +1,4 @@
-package example.leetcode;
+package example.leetcode.linkedlist;
 
 public class Utils {
 

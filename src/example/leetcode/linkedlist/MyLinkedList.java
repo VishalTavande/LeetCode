@@ -1,4 +1,4 @@
-package example.leetcode;
+package example.leetcode.linkedlist;
 
 /****
  * Solution to leetcode problem <a href="https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/">...</a>

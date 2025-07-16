@@ -1,6 +1,6 @@
-package example.leetcode;
+package example.leetcode.linkedlist;
 
-import static example.leetcode.Utils.printList;
+import static example.leetcode.linkedlist.Utils.printList;
 
 /****
  * Solution to leetcode problem <a href="https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1215/">...</a>
