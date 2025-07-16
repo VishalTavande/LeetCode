@@ -3,13 +3,14 @@ package example.leetcode;
 public class Utils {
 
     public static void printList(ListNode head) {
+        StringBuilder sb = new StringBuilder();
         ListNode curr = head;
         while (curr != null) {
-            System.out.print(curr.val);
+            sb.append(curr.val);
+            if(curr.next != null)
+                sb.append("->");
             curr = curr.next;
-            if(curr != null)
-                System.out.print("->");
         }
-        System.out.println();
+        System.out.println(sb);
     }
 }
