@@ -3,6 +3,14 @@ package example.leetcode.linkedlist;
 public class Utils {
 
     public static void printList(ListNode head) {
+        System.out.println(getListInStringFormat(head));
+    }
+
+    public static void printList(String message, ListNode head) {
+        System.out.println(message + " : " + getListInStringFormat(head));
+    }
+
+    private static String getListInStringFormat(ListNode head) {
         StringBuilder sb = new StringBuilder();
         ListNode curr = head;
         while (curr != null) {
@@ -11,6 +19,6 @@ public class Utils {
                 sb.append("->");
             curr = curr.next;
         }
-        System.out.println(sb);
+        return sb.toString();
     }
 }
